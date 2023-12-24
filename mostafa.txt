@@ -1,0 +1,4 @@
+#importing the liprary 
+import pandas as pd 
+file = pd.read_json(r"C:\Users\J0223047\Desktop\mostafa.json")
+file.to_csv(r"C:\Users\J0223047\Desktop\mostafa.csv")
